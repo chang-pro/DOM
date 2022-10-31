@@ -6,7 +6,7 @@ const joke3 ="What do you call a pig that does karate? A pork chop.";
 
 
 main.innerHTML =`
-<head>My Jokes</head>
+<h1>My Jokes</h1>
 <ul>
     <li>${joke1}</li>
     <li>${joke2}</li>
@@ -15,3 +15,4 @@ main.innerHTML =`
 
 const h3 = document.createElement('h3');
 h3.textContent = "That's All Folks";
+main.appendChild(h3);
